@@ -1,0 +1,510 @@
+2017-09-03 14:26:34,422 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-09-03 14:26:34,424 | INFO | CamelTestSupport.java 228 | Testing: readMessagesFromActiveMQ(JmsReadRouteTest)
+2017-09-03 14:26:34,425 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-09-03 14:26:35,822 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-09-03 14:26:35,824 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-09-03 14:26:36,078 | INFO | DefaultTypeConverter.java 56 | Loaded 193 type converters
+2017-09-03 14:26:36,318 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-09-03 14:26:37,045 | INFO | FailoverTransport.java 1052 | Successfully connected to tcp://localhost:61616
+2017-09-03 14:26:37,230 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: activemq://queue:testQueue
+2017-09-03 14:26:37,231 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-09-03 14:26:37,244 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 1.409 seconds
+2017-09-03 14:26:37,366 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, BodyType: String, Body: 123]
+2017-09-03 14:26:37,369 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-09-03 14:26:37,370 | INFO | CamelTestSupport.java 374 | Testing done: readMessagesFromActiveMQ(JmsReadRouteTest)
+2017-09-03 14:26:37,370 | INFO | CamelTestSupport.java 375 | Took: 0.124 seconds (124 millis)
+2017-09-03 14:26:37,370 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-09-03 14:26:37,393 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-09-03 14:26:37,394 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-09-03 14:26:38,432 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: activemq://queue:testQueue
+2017-09-03 14:26:38,433 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 1 seconds
+2017-09-03 14:26:38,569 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 2.748 seconds
+2017-09-03 14:26:38,570 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 1.176 seconds
+2017-09-03 14:31:40,224 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-09-03 14:31:40,228 | INFO | CamelTestSupport.java 228 | Testing: readMessagesFromActiveMQ(JmsReadRouteTest)
+2017-09-03 14:31:40,228 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-09-03 14:31:40,906 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-09-03 14:31:40,907 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-09-03 14:31:41,004 | INFO | DefaultTypeConverter.java 56 | Loaded 193 type converters
+2017-09-03 14:31:41,257 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-09-03 14:31:41,627 | INFO | FailoverTransport.java 1052 | Successfully connected to tcp://localhost:61616
+2017-09-03 14:31:41,663 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: activemq://queue:testQueue
+2017-09-03 14:31:41,666 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-09-03 14:31:41,671 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.761 seconds
+2017-09-03 14:32:10,436 | WARN | FailoverTransport.java 280 | Transport (tcp://localhost:61616) failed , attempting to automatically reconnect: java.net.SocketException: Connection reset
+2017-09-03 14:32:30,768 | WARN | FailoverTransport.java 1100 | Failed to connect to [tcp://localhost:61616] after: 10 attempt(s) continuing to retry.
+2017-09-03 14:35:38,110 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-09-03 14:35:38,113 | INFO | CamelTestSupport.java 228 | Testing: readMessagesFromActiveMQ(JmsReadRouteTest)
+2017-09-03 14:35:38,113 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-09-03 14:35:38,816 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-09-03 14:35:38,818 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-09-03 14:35:38,895 | INFO | DefaultTypeConverter.java 56 | Loaded 193 type converters
+2017-09-03 14:35:39,087 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-09-03 14:35:39,477 | INFO | FailoverTransport.java 1052 | Successfully connected to tcp://localhost:61616
+2017-09-03 14:35:39,668 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: activemq://queue:testQueue
+2017-09-03 14:35:39,669 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-09-03 14:35:39,677 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.854 seconds
+2017-09-03 14:36:22,904 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, BodyType: String, Body: 123]
+2017-09-03 14:36:22,909 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-09-03 14:36:22,909 | INFO | CamelTestSupport.java 374 | Testing done: readMessagesFromActiveMQ(JmsReadRouteTest)
+2017-09-03 14:36:22,910 | INFO | CamelTestSupport.java 375 | Took: 43.228 seconds (43228 millis)
+2017-09-03 14:36:22,910 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-09-03 14:36:22,917 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-09-03 14:36:22,918 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-09-03 14:36:23,915 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: activemq://queue:testQueue
+2017-09-03 14:36:23,916 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-09-03 14:36:23,976 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 45.161 seconds
+2017-09-03 14:36:23,977 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 1.059 seconds
+2017-09-03 14:36:56,898 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-09-03 14:36:56,902 | INFO | CamelTestSupport.java 228 | Testing: readMessagesFromActiveMQ(JmsReadRouteTest)
+2017-09-03 14:36:56,902 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-09-03 14:36:57,618 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-09-03 14:36:57,619 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-09-03 14:36:57,700 | INFO | DefaultTypeConverter.java 56 | Loaded 193 type converters
+2017-09-03 14:36:57,900 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-09-03 14:36:58,209 | INFO | FailoverTransport.java 1052 | Successfully connected to tcp://localhost:61616
+2017-09-03 14:36:58,235 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: activemq://queue:testQueue
+2017-09-03 14:36:58,236 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-09-03 14:36:58,241 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.619 seconds
+2017-09-03 14:37:57,746 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-09-03 14:37:57,750 | INFO | CamelTestSupport.java 228 | Testing: readMessagesFromActiveMQ(JmsReadRouteTest)
+2017-09-03 14:37:57,750 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-09-03 14:37:58,488 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-09-03 14:37:58,490 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-09-03 14:37:58,582 | INFO | DefaultTypeConverter.java 56 | Loaded 193 type converters
+2017-09-03 14:37:58,794 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-09-03 14:37:59,162 | INFO | FailoverTransport.java 1052 | Successfully connected to tcp://localhost:61616
+2017-09-03 14:37:59,196 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: activemq://queue:testQueue
+2017-09-03 14:37:59,197 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-09-03 14:37:59,202 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.710 seconds
+2017-09-03 14:40:16,816 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-09-03 14:40:16,819 | INFO | CamelTestSupport.java 228 | Testing: readMessagesFromActiveMQ(JmsReadRouteTest)
+2017-09-03 14:40:16,819 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-09-03 14:40:17,529 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-09-03 14:40:17,531 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-09-03 14:40:17,632 | INFO | DefaultTypeConverter.java 56 | Loaded 193 type converters
+2017-09-03 14:40:17,817 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-09-03 14:40:18,132 | INFO | FailoverTransport.java 1052 | Successfully connected to tcp://localhost:61616
+2017-09-03 14:40:18,229 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: activemq://queue:testQueue
+2017-09-03 14:40:18,230 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-09-03 14:40:18,235 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.701 seconds
+2017-09-03 14:40:18,358 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, BodyType: String, Body: 123]
+2017-09-03 14:40:18,364 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-09-03 14:40:18,365 | INFO | CamelTestSupport.java 374 | Testing done: readMessagesFromActiveMQ(JmsReadRouteTest)
+2017-09-03 14:40:18,365 | INFO | CamelTestSupport.java 375 | Took: 0.127 seconds (127 millis)
+2017-09-03 14:40:18,366 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-09-03 14:40:18,376 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-09-03 14:40:18,377 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-09-03 14:40:19,380 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: activemq://queue:testQueue
+2017-09-03 14:40:19,381 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 1 seconds
+2017-09-03 14:40:19,435 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 1.905 seconds
+2017-09-03 14:40:19,436 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 1.058 seconds
+2017-09-03 14:41:41,718 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-09-03 14:41:41,722 | INFO | CamelTestSupport.java 228 | Testing: readMessagesFromActiveMQ(JmsReadRouteTest)
+2017-09-03 14:41:41,723 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-09-03 14:41:42,479 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-09-03 14:41:42,481 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-09-03 14:41:42,577 | INFO | DefaultTypeConverter.java 56 | Loaded 193 type converters
+2017-09-03 14:41:42,837 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-09-03 14:41:43,209 | INFO | FailoverTransport.java 1052 | Successfully connected to tcp://localhost:61616
+2017-09-03 14:41:43,249 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: activemq://queue:testQueue
+2017-09-03 14:41:43,250 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-09-03 14:41:43,255 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.772 seconds
+2017-09-03 16:34:37,387 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-09-03 16:34:37,391 | INFO | CamelTestSupport.java 228 | Testing: insertData(DBPostGresRouteTest)
+2017-09-03 16:34:37,391 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-09-03 16:34:39,217 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-09-03 16:34:39,218 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-09-03 16:34:39,379 | INFO | DefaultTypeConverter.java 56 | Loaded 193 type converters
+2017-09-03 16:34:39,648 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-09-03 16:34:39,675 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://dbInput
+2017-09-03 16:34:39,676 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-09-03 16:34:39,726 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.459 seconds
+2017-09-03 16:34:39,783 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: first db input]
+2017-09-03 16:34:40,123 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-DESKTOP-3DE6N1O-55066-1504436677890-0-1 on ExchangeId: ID-DESKTOP-3DE6N1O-55066-1504436677890-0-2). Exhausted after delivery attempt: 1 caught: org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (FATAL: database "localDB" does not exist)
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [direct://dbInput                                                              ] [       352]
+[route1            ] [to1               ] [log:?level=INFO&showBody=true                                                 ] [        13]
+[route1            ] [process1          ] [Processor@0x2e6a8155                                                          ] [         0]
+[route1            ] [to2               ] [jdbc:myDataSource                                                             ] [       336]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (FATAL: database "localDB" does not exist)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1549)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1388)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at org.apache.camel.component.jdbc.JdbcProducer.processingSqlBySettingAutoCommit(JdbcProducer.java:76)
+	at org.apache.camel.component.jdbc.JdbcProducer.process(JdbcProducer.java:63)
+	at org.apache.camel.util.AsyncProcessorConverterHelper$ProcessorToAsyncProcessorBridge.process(AsyncProcessorConverterHelper.java:61)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:542)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:120)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.direct.DirectProducer.process(DirectProducer.java:62)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:120)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.DelegateAsyncProcessor.process(DelegateAsyncProcessor.java:97)
+	at org.apache.camel.impl.ProducerCache$1.doInProducer(ProducerCache.java:529)
+	at org.apache.camel.impl.ProducerCache$1.doInProducer(ProducerCache.java:497)
+	at org.apache.camel.impl.ProducerCache.doInProducer(ProducerCache.java:365)
+	at org.apache.camel.impl.ProducerCache.sendExchange(ProducerCache.java:497)
+	at org.apache.camel.impl.ProducerCache.send(ProducerCache.java:260)
+	at org.apache.camel.impl.DefaultProducerTemplate.requestBody(DefaultProducerTemplate.java:337)
+	at DBPostGresRouteTest.insertData(DBPostGresRouteTest.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.postgresql.util.PSQLException: FATAL: database "localDB" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2455)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2586)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:113)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:222)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:52)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:216)
+	at org.postgresql.Driver.makeConnection(Driver.java:404)
+	at org.postgresql.Driver.connect(Driver.java:272)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1556)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1545)
+	... 51 more
+2017-09-03 16:34:40,170 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-09-03 16:34:40,173 | INFO | CamelTestSupport.java 374 | Testing done: insertData(DBPostGresRouteTest)
+2017-09-03 16:34:40,174 | INFO | CamelTestSupport.java 375 | Took: 0.443 seconds (443 millis)
+2017-09-03 16:34:40,174 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-09-03 16:34:40,236 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-09-03 16:34:40,238 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-09-03 16:34:40,293 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://dbInput
+2017-09-03 16:34:40,295 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-09-03 16:34:40,425 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 1.208 seconds
+2017-09-03 16:34:40,425 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.189 seconds
+2017-09-03 16:37:06,747 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-09-03 16:37:06,753 | INFO | CamelTestSupport.java 228 | Testing: insertData(DBPostGresRouteTest)
+2017-09-03 16:37:06,754 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-09-03 16:37:07,890 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-09-03 16:37:07,893 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-09-03 16:37:08,139 | INFO | DefaultTypeConverter.java 56 | Loaded 193 type converters
+2017-09-03 16:37:08,363 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-09-03 16:37:08,385 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://dbInput
+2017-09-03 16:37:08,385 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-09-03 16:37:08,398 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.495 seconds
+2017-09-03 16:37:08,418 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: first db input]
+2017-09-03 16:37:08,657 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-DESKTOP-3DE6N1O-55649-1504436826943-0-1 on ExchangeId: ID-DESKTOP-3DE6N1O-55649-1504436826943-0-2). Exhausted after delivery attempt: 1 caught: org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (FATAL: database "localDB" does not exist)
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [direct://dbInput                                                              ] [       244]
+[route1            ] [to1               ] [log:?level=INFO&showBody=true                                                 ] [         8]
+[route1            ] [process1          ] [Processor@0x2e3967ea                                                          ] [         0]
+[route1            ] [to2               ] [jdbc:myDataSource                                                             ] [       233]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (FATAL: database "localDB" does not exist)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1549)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1388)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at org.apache.camel.component.jdbc.JdbcProducer.processingSqlBySettingAutoCommit(JdbcProducer.java:76)
+	at org.apache.camel.component.jdbc.JdbcProducer.process(JdbcProducer.java:63)
+	at org.apache.camel.util.AsyncProcessorConverterHelper$ProcessorToAsyncProcessorBridge.process(AsyncProcessorConverterHelper.java:61)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:542)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:120)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.direct.DirectProducer.process(DirectProducer.java:62)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:120)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.DelegateAsyncProcessor.process(DelegateAsyncProcessor.java:97)
+	at org.apache.camel.impl.ProducerCache$1.doInProducer(ProducerCache.java:529)
+	at org.apache.camel.impl.ProducerCache$1.doInProducer(ProducerCache.java:497)
+	at org.apache.camel.impl.ProducerCache.doInProducer(ProducerCache.java:365)
+	at org.apache.camel.impl.ProducerCache.sendExchange(ProducerCache.java:497)
+	at org.apache.camel.impl.ProducerCache.send(ProducerCache.java:260)
+	at org.apache.camel.impl.DefaultProducerTemplate.requestBody(DefaultProducerTemplate.java:337)
+	at DBPostGresRouteTest.insertData(DBPostGresRouteTest.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.postgresql.util.PSQLException: FATAL: database "localDB" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2455)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2586)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:113)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:222)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:52)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:216)
+	at org.postgresql.Driver.makeConnection(Driver.java:404)
+	at org.postgresql.Driver.connect(Driver.java:272)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1556)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1545)
+	... 51 more
+2017-09-03 16:37:08,669 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-09-03 16:37:08,669 | INFO | CamelTestSupport.java 374 | Testing done: insertData(DBPostGresRouteTest)
+2017-09-03 16:37:08,669 | INFO | CamelTestSupport.java 375 | Took: 0.270 seconds (270 millis)
+2017-09-03 16:37:08,669 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-09-03 16:37:08,680 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-09-03 16:37:08,680 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-09-03 16:37:08,688 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://dbInput
+2017-09-03 16:37:08,689 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-09-03 16:37:08,704 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.814 seconds
+2017-09-03 16:37:08,705 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.024 seconds
+2017-09-03 16:41:23,442 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-09-03 16:41:23,445 | INFO | CamelTestSupport.java 228 | Testing: insertData(DBPostGresRouteTest)
+2017-09-03 16:41:23,446 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-09-03 16:41:24,455 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-09-03 16:41:24,457 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-09-03 16:41:24,599 | INFO | DefaultTypeConverter.java 56 | Loaded 193 type converters
+2017-09-03 16:41:24,759 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-09-03 16:41:24,776 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://dbInput
+2017-09-03 16:41:24,776 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-09-03 16:41:24,786 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.322 seconds
+2017-09-03 16:41:24,805 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: first db input]
+2017-09-03 16:41:24,925 | ERROR | CamelLogger.java 204 | Failed delivery for (MessageId: ID-DESKTOP-3DE6N1O-56517-1504437083585-0-1 on ExchangeId: ID-DESKTOP-3DE6N1O-56517-1504437083585-0-2). Exhausted after delivery attempt: 1 caught: org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (FATAL: database "localDB" does not exist)
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [direct://dbInput                                                              ] [       125]
+[route1            ] [to1               ] [log:?level=INFO&showBody=true                                                 ] [         7]
+[route1            ] [process1          ] [Processor@0x2e3967ea                                                          ] [         0]
+[route1            ] [to2               ] [jdbc:myDataSource                                                             ] [       115]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (FATAL: database "localDB" does not exist)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1549)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1388)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at org.apache.camel.component.jdbc.JdbcProducer.processingSqlBySettingAutoCommit(JdbcProducer.java:76)
+	at org.apache.camel.component.jdbc.JdbcProducer.process(JdbcProducer.java:63)
+	at org.apache.camel.util.AsyncProcessorConverterHelper$ProcessorToAsyncProcessorBridge.process(AsyncProcessorConverterHelper.java:61)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:542)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:120)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.direct.DirectProducer.process(DirectProducer.java:62)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:120)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.DelegateAsyncProcessor.process(DelegateAsyncProcessor.java:97)
+	at org.apache.camel.impl.ProducerCache$1.doInProducer(ProducerCache.java:529)
+	at org.apache.camel.impl.ProducerCache$1.doInProducer(ProducerCache.java:497)
+	at org.apache.camel.impl.ProducerCache.doInProducer(ProducerCache.java:365)
+	at org.apache.camel.impl.ProducerCache.sendExchange(ProducerCache.java:497)
+	at org.apache.camel.impl.ProducerCache.send(ProducerCache.java:260)
+	at org.apache.camel.impl.DefaultProducerTemplate.requestBody(DefaultProducerTemplate.java:337)
+	at DBPostGresRouteTest.insertData(DBPostGresRouteTest.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.postgresql.util.PSQLException: FATAL: database "localDB" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2455)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2586)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:113)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:222)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:52)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:216)
+	at org.postgresql.Driver.makeConnection(Driver.java:404)
+	at org.postgresql.Driver.connect(Driver.java:272)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1556)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1545)
+	... 51 more
+2017-09-03 16:41:24,935 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-09-03 16:41:24,936 | INFO | CamelTestSupport.java 374 | Testing done: insertData(DBPostGresRouteTest)
+2017-09-03 16:41:24,936 | INFO | CamelTestSupport.java 375 | Took: 0.148 seconds (148 millis)
+2017-09-03 16:41:24,936 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-09-03 16:41:24,949 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-09-03 16:41:24,950 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-09-03 16:41:24,955 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://dbInput
+2017-09-03 16:41:24,955 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-09-03 16:41:24,972 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.518 seconds
+2017-09-03 16:41:24,972 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.023 seconds
+2017-09-03 16:42:47,720 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-09-03 16:42:47,727 | INFO | CamelTestSupport.java 228 | Testing: insertData(DBPostGresRouteTest)
+2017-09-03 16:42:47,727 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-09-03 16:42:48,688 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-09-03 16:42:48,691 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-09-03 16:42:48,793 | INFO | DefaultTypeConverter.java 56 | Loaded 193 type converters
+2017-09-03 16:42:48,978 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-09-03 16:42:48,993 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://dbInput
+2017-09-03 16:42:48,994 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-09-03 16:42:49,008 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.306 seconds
+2017-09-03 16:42:49,030 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: first db input]
+2017-09-03 16:42:49,447 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-09-03 16:42:49,448 | INFO | CamelTestSupport.java 374 | Testing done: insertData(DBPostGresRouteTest)
+2017-09-03 16:42:49,449 | INFO | CamelTestSupport.java 375 | Took: 0.438 seconds (438 millis)
+2017-09-03 16:42:49,449 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-09-03 16:42:49,469 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-09-03 16:42:49,476 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-09-03 16:42:49,490 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://dbInput
+2017-09-03 16:42:49,491 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-09-03 16:42:49,527 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.838 seconds
+2017-09-03 16:42:49,528 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.057 seconds
+2017-09-03 16:49:14,136 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-09-03 16:49:14,141 | INFO | CamelTestSupport.java 228 | Testing: insertData(DBPostGresRouteTest)
+2017-09-03 16:49:14,142 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-09-03 16:49:15,020 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-09-03 16:49:15,023 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-09-03 16:49:15,150 | INFO | DefaultTypeConverter.java 56 | Loaded 193 type converters
+2017-09-03 16:49:15,387 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-09-03 16:49:15,396 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://dbInput
+2017-09-03 16:49:15,396 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-09-03 16:49:15,398 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.376 seconds
+2017-09-03 16:49:15,414 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: first db input]
+2017-09-03 16:49:15,829 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: java.util.ArrayList, Body: [{id=1, message=first db input, create_date=2017-09-03 16:49:15.651022}]]
+2017-09-03 16:49:15,831 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-09-03 16:49:15,831 | INFO | CamelTestSupport.java 374 | Testing done: insertData(DBPostGresRouteTest)
+2017-09-03 16:49:15,832 | INFO | CamelTestSupport.java 375 | Took: 0.431 seconds (431 millis)
+2017-09-03 16:49:15,832 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-09-03 16:49:15,850 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-09-03 16:49:15,852 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-09-03 16:49:15,869 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://dbInput
+2017-09-03 16:49:15,870 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-09-03 16:49:15,905 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.885 seconds
+2017-09-03 16:49:15,906 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.054 seconds
+2017-09-03 22:54:47,002 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-09-03 22:54:47,005 | INFO | CamelTestSupport.java 228 | Testing: insertData(DBPostGresRouteTest)
+2017-09-03 22:54:47,006 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-09-03 22:54:47,867 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-09-03 22:54:47,869 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-09-03 22:54:47,934 | INFO | DefaultTypeConverter.java 56 | Loaded 193 type converters
+2017-09-03 22:54:48,061 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-09-03 22:54:48,091 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://dbInput
+2017-09-03 22:54:48,092 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-09-03 22:54:48,095 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.225 seconds
+2017-09-03 22:54:48,122 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: first db input1]
+2017-09-03 22:54:48,402 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: java.util.ArrayList, Body: [{id=1, message=first db input, create_date=2017-09-03 16:49:15.651022}, {id=1, message=first db input1, create_date=2017-09-03 22:54:48.362267}]]
+2017-09-03 22:54:48,403 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-09-03 22:54:48,403 | INFO | CamelTestSupport.java 374 | Testing done: insertData(DBPostGresRouteTest)
+2017-09-03 22:54:48,403 | INFO | CamelTestSupport.java 375 | Took: 0.307 seconds (307 millis)
+2017-09-03 22:54:48,403 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-09-03 22:54:48,408 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-09-03 22:54:48,408 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-09-03 22:54:48,414 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://dbInput
+2017-09-03 22:54:48,414 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-09-03 22:54:48,425 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 0.558 seconds
+2017-09-03 22:54:48,425 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.017 seconds
+2017-09-10 15:22:10,479 | INFO | CamelTestSupport.java 227 | ********************************************************************************
+2017-09-10 15:22:10,505 | INFO | CamelTestSupport.java 228 | Testing: insertData(DBPostGresRouteTest)
+2017-09-10 15:22:10,505 | INFO | CamelTestSupport.java 229 | ********************************************************************************
+2017-09-10 15:22:11,969 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-09-10 15:22:11,971 | INFO | DefaultManagementStrategy.java 238 | JMX is disabled
+2017-09-10 15:22:12,215 | INFO | DefaultTypeConverter.java 56 | Loaded 193 type converters
+2017-09-10 15:22:12,608 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-09-10 15:22:12,619 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: direct://dbInput
+2017-09-10 15:22:12,620 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-09-10 15:22:12,633 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 0.651 seconds
+2017-09-10 15:22:12,651 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: String, Body: first db input3]
+2017-09-10 15:22:13,271 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOut, BodyType: java.util.ArrayList, Body: [{id=1, message=first db input, create_date=2017-09-03 16:49:15.651022}, {id=1, message=first db input1, create_date=2017-09-03 22:54:48.362267}, {id=1, message=first db input3, create_date=2017-09-10 15:22:13.128308}]]
+2017-09-10 15:22:13,272 | INFO | CamelTestSupport.java 373 | ********************************************************************************
+2017-09-10 15:22:13,272 | INFO | CamelTestSupport.java 374 | Testing done: insertData(DBPostGresRouteTest)
+2017-09-10 15:22:13,272 | INFO | CamelTestSupport.java 375 | Took: 0.638 seconds (638 millis)
+2017-09-10 15:22:13,272 | INFO | CamelTestSupport.java 402 | ********************************************************************************
+2017-09-10 15:22:13,279 | INFO | DefaultCamelContext.java 3173 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutting down
+2017-09-10 15:22:13,280 | INFO | DefaultShutdownStrategy.java 196 | Starting to graceful shutdown 1 routes (timeout 10 seconds)
+2017-09-10 15:22:13,300 | INFO | DefaultShutdownStrategy.java 669 | Route: route1 shutdown complete, was consuming from: direct://dbInput
+2017-09-10 15:22:13,301 | INFO | DefaultShutdownStrategy.java 260 | Graceful shutdown of 1 routes completed in 0 seconds
+2017-09-10 15:22:13,368 | INFO | DefaultCamelContext.java 3262 | Apache Camel 2.18.3 (CamelContext: camel-1) uptime 1.399 seconds
+2017-09-10 15:22:13,368 | INFO | DefaultCamelContext.java 3263 | Apache Camel 2.18.3 (CamelContext: camel-1) is shutdown in 0.089 seconds
+2017-09-10 15:42:05,240 | INFO | DefaultCamelContext.java 2905 | Apache Camel 2.18.3 (CamelContext: camel-1) is starting
+2017-09-10 15:42:05,245 | INFO | ManagedManagementStrategy.java 191 | JMX is enabled
+2017-09-10 15:42:05,686 | INFO | DefaultTypeConverter.java 56 | Loaded 193 type converters
+2017-09-10 15:42:05,712 | INFO | DefaultRuntimeEndpointRegistry.java 203 | Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+2017-09-10 15:42:06,146 | INFO | DefaultCamelContext.java 3152 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-09-10 15:42:07,119 | INFO | FailoverTransport.java 1052 | Successfully connected to tcp://localhost:61616
+2017-09-10 15:42:07,329 | INFO | DefaultCamelContext.java 3693 | Route: route1 started and consuming from: activemq://queue:testQueue
+2017-09-10 15:42:07,330 | INFO | DefaultCamelContext.java 2947 | Total 1 routes, of which 1 are started.
+2017-09-10 15:42:07,337 | INFO | DefaultCamelContext.java 2948 | Apache Camel 2.18.3 (CamelContext: camel-1) started in 2.096 seconds
+2017-09-10 15:42:07,799 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, BodyType: String, Body: Tanuj]
+2017-09-10 15:42:08,580 | INFO | CamelLogger.java 159 | Exchange[ExchangePattern: InOnly, BodyType: java.util.ArrayList, Body: [{id=1, message=first db input, create_date=2017-09-03 16:49:15.651022}, {id=1, message=first db input1, create_date=2017-09-03 22:54:48.362267}, {id=1, message=first db input3, create_date=2017-09-10 15:22:13.128308}, {id=1, message=Tanuj, create_date=2017-09-10 15:42:08.425126}]]
